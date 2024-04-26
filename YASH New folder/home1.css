@@ -1,0 +1,71 @@
+body{
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+    
+    background-image: url("https://www.tokkoro.com/picsup/3029533-coffee_color_cup-of-coffee_drink_fabric_notebook_notepad_office_paper_pattern_pen_placemat_table_textile_texture_work_workplace.jpg");
+     background-repeat: no-repeat;
+     background-size: cover;
+     
+ }
+ .background
+ {
+     max-width:700px;
+     padding: 20px;
+     position: relative;
+     margin: 20px auto;
+     background: rgba(185, 153, 153, 0.8);
+     font-family: Quicksand;
+ }
+ 
+ .container{
+     
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     padding-top: 20px;
+     align-items: center;
+     gap:20px;
+     color: rgb(196, 16, 16);
+    
+    
+ }
+ 
+ .text{
+     padding: 60px;
+    margin : 20px;
+     border: 3px groove white;
+     border-radius:30px;
+     outline: 3px solid black;
+     
+ }
+ .container h2{
+     background-color: lightgreen;
+ }
+ .link{
+     color: rgb(53, 53, 139);
+     line-height: 15px;
+     
+ }
+ 
+ 
+ a:link {
+     color: yellow;
+   }
+   
+   a:visited {
+     color: cyan;
+   }
+   
+   a:hover {
+     background-color: lightgreen;
+   }
+   
+   a:active {
+    color: hotpink;
+   } 
+   footer{
+     text-align: center;
+     font-family: Arial, Helvetica, sans-serif;
+     font-weight: 600;
+   }
